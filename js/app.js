@@ -42,6 +42,28 @@ function updateCount(num, maxNum){
     }
 }
 
+//function to share image 
+function shareImage() {
+    // Replace 'image_url' with the URL of the image you want to share
+    const imageUrl = 'image_url';
+    
+    // Use the Web Share API to share the image
+    if (navigator.share) {
+        navigator.share({
+            title: 'Share Image',
+            text: 'Check out this image!',
+            url: imageUrl,
+        })
+        .then(() => console.log('Image shared successfully'))
+        .catch((error) => console.log('Error sharing image:', error));
+    } else {
+        console.log('Web Share API not supported');
+        // Fallback behavior for browsers that do not support Web Share API
+        // You can use other sharing methods here, such as opening a share dialog
+    }
+}
+
+
 //functon for phone call
 function callPhoneNumber(phoneNumber) {
     // Open the phone app with the specified phone number
