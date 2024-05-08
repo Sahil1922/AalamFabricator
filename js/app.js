@@ -176,7 +176,7 @@ modal_overlay.addEventListener("click", () => {
 
 prev_btn.addEventListener("click", () => {
     if(currentIndex === 0) {
-        currentIndex = 5;
+        currentIndex = 47;
     } else {
         currentIndex--;
     }
@@ -186,7 +186,7 @@ prev_btn.addEventListener("click", () => {
 });
 
 next_btn.addEventListener("click", () => {
-    if(currentIndex === 5) {
+    if(currentIndex === 47) {
         currentIndex = 0;
     } else {
         currentIndex++;
