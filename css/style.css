@@ -58,6 +58,83 @@ body.dark .form-input:hover {
   filter: brightness(110%);
 }
 
+/* Payment and all */
+
+
+/* Styling for open office hours */
+.subscription p {
+  margin: 10px 0;
+}
+
+.subscription ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.subscription li {
+  margin-bottom: 5px;
+}
+
+/* Styling for location */
+.subscription .location {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.subscription .location i {
+  margin-right: 10px;
+}
+
+/* Styling for email */
+.subscription .mail {
+  display: block;
+  font-size: 16px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.subscription .mail i {
+  margin-left: 5px;
+}
+
+/* Styling for phone */
+.subscription .cta {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.subscription .cta i {
+  font-size: 24px;
+  color:  rgb(188, 104, 44);
+  margin-right: 10px;
+}
+
+.subscription .cta h1 {
+  font-size: 18px;
+  color: rgb(188, 104, 44);
+  margin: 0;
+  cursor: pointer;
+}
+
+/* Styling for payment methods */
+.payment-methods {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.payment-methods li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.payment-methods img {
+  max-width: 50px;
+  height: auto;
+}
 
 /* --------------- Gereral Styles --------------- */
 
@@ -1204,6 +1281,7 @@ body.open .hamburger .bar:last-child{
 /* --------------- Contact Section Styling --------------- */
 .contact .container  {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
   column-gap: 4rem;
 }
 
@@ -2084,5 +2162,82 @@ footer .social-media{
     margin-top: 2rem;
   }
   
+ /* Styling for subscription section */
+
+/* Styling for open office hours */
+.subscription p {
+  margin: 10px 0;
+}
+
+.subscription ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.subscription li {
+  margin-bottom: 5px;
+}
+
+/* Styling for location */
+.subscription .location {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.subscription .location i {
+  margin-right: 10px;
+}
+
+/* Styling for email */
+.subscription .mail {
+  display: block;
+  font-size: 16px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.subscription .mail i {
+  margin-left: 5px;
+}
+
+/* Styling for phone */
+.subscription .cta {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.subscription .cta i {
+  font-size: 24px;
+  color:  rgb(188, 104, 44);
+  margin-right: 10px;
+}
+
+.subscription .cta h1 {
+  font-size: 18px;
+  color: rgb(188, 104, 44);
+  margin: 0;
+  cursor: pointer;
+}
+
+/* Styling for payment methods */
+.payment-methods {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.payment-methods li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.payment-methods img {
+  max-width: 50px;
+  height: auto;
+}
+
   
 }
